@@ -1,4 +1,4 @@
-#lightbox{
+#click{
     height: 0;
     width: 0;
     position: fixed;
@@ -7,10 +7,14 @@
     overflow: hidden;
     transition: all 2s ease-in-out;
     }
-    #lightbox:target{
+    #click:target{
         height: 30%;
         width: 30%;
-        top: 30%;
+        top: 20%;
         left: 50%;
         background-color: aqua;
+    }
+    #lightbox:visited{
+        background-color: black;
+
     }
